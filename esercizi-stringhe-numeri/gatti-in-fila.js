@@ -17,10 +17,13 @@
 
   http://www.imparareaprogrammare.it
 */
-var totaleGatti = 44;
-var gattiPerFila = 6;
-var resto = totaleGatti/gattiPerFila;
+var totaleGatti = 10;
+var gattiPerFila = 5;
 
-console.log('numero di gatti: '+totaleGatti);
-console.log('in fila per '+gattiPerFila);
-console.log('col resto di '+resto);
+var file = totaleGatti/gattiPerFila;
+Math.ceil(file);
+var gattiMancanti = totaleGatti%gattiPerFila;
+
+
+console.log('numero di file: '+file);
+console.log('gatti mancanti: '+gattiMancanti);
