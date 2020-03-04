@@ -21,7 +21,7 @@ var totaleGatti = 44;
 var gattiPerFila = 6;
 
 var file = Math.ceil(totaleGatti/gattiPerFila);
-var gattiMancanti = totaleGatti%gattiPerFila;
+var gattiMancanti = file*gattiPerFila-totaleGatti;
 
 
 console.log('numero di file: '+file);
