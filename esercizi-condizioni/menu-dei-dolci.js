@@ -21,3 +21,22 @@
 
   http://www.imparareaprogrammare.it
 */
+var numeroOrdine = 4
+switch (numeroOrdine) {
+
+  case 1:
+    console.log('hai scelto il dolce tiramisù');
+    break;
+  case 2:
+     console.log('hai scelto il dolce torta della nonna');
+    break;
+  case 3:
+    console.log('hai scelto il dolce cheesecake alla nutella');
+    break;
+  case 4:
+    console.log('hai scelto il dolce macedonia');
+    break;
+  default:
+    console.log('dolce non disponibile');
+    break;
+}

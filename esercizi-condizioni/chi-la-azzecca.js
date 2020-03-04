@@ -18,4 +18,48 @@
   Ricordati che il valore dovrà essere intero quindi dovrai arrontondarlo usando Math.floor()
 
   http://www.imparareaprogrammare.it
-*/
+*/var player1= 69;
+var player2= 60;
+var random= Math.random() * (100-1) + 1;
+var custom= Math.floor(random);
+console.log(player1);
+console.log(player2);
+
+
+console.log('numero casuale generato: '+ Math.floor(random));
+if (custom==player1) {
+  console.log('player1 ha vinto');
+}else if (custom==player2) {
+  console.log('player2 ha vinto');
+}
+if ((player1&&player2)<custom) {
+  if (player1>player2) {
+    console.log('1 player1 si è avvicinato di più');
+  }else {
+    console.log('1 player2 si è avvicinato di più');
+  }
+}
+if ((player1&&player2)>custom) {
+  if (player1<player2) {
+    console.log('2 player1 si è avvicinato di più');
+  }else {
+    console.log('2 player2 si è avvicinato di più');
+  }
+}
+if ((player1<custom)&&(player2>custom)) {
+  var x=custom-player1;
+  var y=player2-custom;
+  if (x<y) {
+    console.log('3 player1 si è avvicinato di più');
+  }else {
+    console.log('3 player2 si è avvicinato di più');
+  }}
+   if ((player2<custom)&&(player1>custom)) {
+    var x=custom-player2;
+    var y=player1-custom;
+    if (x<y){
+    console.log('4 player2 si è avvicinato di più');
+  }  else {
+    console.log('4 player1 si è avvicinato di più');
+  }
+}
