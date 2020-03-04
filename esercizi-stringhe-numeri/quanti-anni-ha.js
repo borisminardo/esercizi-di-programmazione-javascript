@@ -11,3 +11,10 @@
 
   http://www.imparareaprogrammare.it
 */
+var annoDiNascita = 1994;
+var annoCorrente = 2020;
+
+var anni = annoCorrente-annoDiNascita;
+var anniMancanti = 100-anni;
+
+console.log('età = '+ anni+', ti mancano '+anniMancanti+' anni per arrivare a 100');

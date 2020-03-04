@@ -5,6 +5,10 @@
   Esempio:
     Input: a = 1, b = 2, c = 3, d = 4, e = 5
     Output: somma = 15, media = 3
-  
+
   http://www.imparareaprogrammare.it
 */
+var uno=10,due=4,tre=7,quattro=10,cinque=9;
+var somma = uno+due+tre+quattro+cinque;
+var media = somma/5;
+console.log('somma = '+somma+', media = '+media);
