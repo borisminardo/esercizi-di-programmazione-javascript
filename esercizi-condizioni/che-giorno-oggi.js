@@ -21,4 +21,31 @@
   Scrivere una versione che anziché i giorni della settimana, visualizzi i nomi dei mesi.
 
   http://www.imparareaprogrammare.it
-*/
+*/var giorno = 4
+switch (giorno) {
+
+  case 1:
+    console.log('lunedi');
+    break;
+  case 2:
+     console.log('martedi');
+    break;
+  case 3:
+    console.log('mercoledi');
+    break;
+  case 4:
+    console.log('giovedi');
+    break;
+  case 5:
+    console.log('venerdi');
+    break;
+  case 6:
+    console.log('sabato');
+    break;
+  case 7:
+    console.log('domenica');
+    break;
+  default:
+    console.log('giorno inesistente');
+    break;
+}
